@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: gray;
+    padding: 20px 10px;
+    width: 100%;
+
+    .header {
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: gray;
+        flex: 0 0 100%;
+    }
+
+    .section {
+        background-color: orange;
+        flex: 0 0 70%;
+
+    }
+
+    .aside {
+        flex: 0 0 30%;
+        background-color: green;
+    }
+
+    .one,
+    .two,
+    .three {
+        flex: 1 0 0;
+        min-width: 200px;
+        margin: 5px;
+        background-color: brown;
+
+    }
+
+    .footer {
+        background-color: gray;
+    }
+
+    .foo_one,
+    .foo_two,
+    .foo_three,
+    .foo_four {
+        background-color: white;
+        flex: 1 0 0;
+        min-width: 100px;
+        margin: 5px;
+    }
